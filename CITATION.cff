@@ -6,10 +6,6 @@ version: "1.0"
 date-released: 2026-11-18
 license: CC-BY-4.0
 authors:
-  - family-names: Carter
-    given-names: Sophia
-  - name: Montessori Theory
-    website: "https://www.montessori-theory.com/"
   - name: Montessori School Finder
     website: "https://www.montessorischoolfinder.com/"
 repository-code: "https://github.com/montessoritheory/montessori-teacher-training-programs"

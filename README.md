@@ -6,14 +6,14 @@
 
 **English first, version française plus bas, resumen en español al final.**
 
-An open, documented list of the Montessori teacher training programs we hold, **356 programs in 56 countries**, from the two public sources that matter for a Montessori certification, the **MACTE accredited program search** and the **AMI list of training centres**. Each row has the program name, city, country, levels, affiliation, delivery format, accreditation status, website and a link to its page on [Montessori School Finder](https://www.montessorischoolfinder.com/montessori-certifications/training-centers/), the companion school directory. Published jointly by [Montessori School Finder](https://www.montessorischoolfinder.com/) and [Montessori Theory](https://www.montessori-theory.com/).
+An open, documented list of the Montessori teacher training programs we hold, **356 programs in 56 countries**, from the two public sources that matter for a Montessori certification, the **MACTE accredited program search** and the **AMI list of training centres**. Each row has the program name, city, country, levels, affiliation, delivery format, accreditation status, website and a link to its page on [Montessori School Finder](https://www.montessorischoolfinder.com/montessori-certifications/training-centers/), the companion school directory. Published by [Montessori School Finder](https://www.montessorischoolfinder.com/).
 
 If you are asking how to become a Montessori teacher, which Montessori certification fits you, or where the AMI training centres and MACTE accredited programs are, this is the table behind those answers.
 
 ## Find A Program Or Use The Data
 
 - **Looking for a program?** Browse the same list by country, with a map, on [Montessori School Finder](https://www.montessorischoolfinder.com/montessori-certifications/training-centers/).
-- **Want the Montessori side of the story?** Read our guide to [AMI versus AMS](https://www.montessori-theory.com/ami-vs-ams-montessori-differences/) on [Montessori Theory](https://www.montessori-theory.com/).
+- **Want the Montessori side of the story?** Read our guide to [AMI versus AMS](https://www.montessorischoolfinder.com/guides/ami-vs-ams/), or browse the [Montessori certifications](https://www.montessorischoolfinder.com/montessori-certifications/) section of Montessori School Finder.
 - **Building something?** Take the CSV files in `data/`, the column list in `data_dictionary.csv` or the starter notebook.
 
 ### The Headline Numbers
@@ -32,9 +32,13 @@ If you are asking how to become a Montessori teacher, which Montessori certifica
 | MACTE programs by delivery | 104 mostly in person, 74 with 10 to 50 % online, 71 with more than 50 % online, 4 not published |
 | Last checked | 2026-11-14 |
 
-![Programs per country, the 12 largest](images/top_countries.png)
+![Montessori teacher training in six numbers](images/key_numbers.png)
 
-![Programs per level and per list](images/levels_and_lists.png)
+![World map of Montessori teacher training programs per country](images/world_map.png)
+
+![Programs per country on the MACTE and AMI lists, the 12 largest](images/countries_by_list.png)
+
+![Programs by list and by level](images/levels_and_lists.png)
 
 ### Files
 
@@ -100,14 +104,18 @@ The MACTE accredited program search and the AMI list of training centres were re
 - **Coordinates are city centres.** They are for maps and counts, not for navigation.
 - **Coverage.** This is the list we hold, built from two public sources. Other programs exist, for example in countries where neither body lists one.
 
+### Image Credits
+
+Cover photo by Anil Sharma on [Pexels](https://www.pexels.com/photo/40282976/), Pexels License. World outlines in the map from [Natural Earth](https://www.naturalearthdata.com/), public domain. Charts by Montessori School Finder.
+
 ### License And Citation
 
-**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Use it, share it and adapt it, commercially or not, and credit **Montessori Theory** with a link to **[montessori-theory.com](https://www.montessori-theory.com/)** and **Montessori School Finder** with a link to **[montessorischoolfinder.com](https://www.montessorischoolfinder.com/)**, along with the sources below.
+**[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Use it, share it and adapt it, commercially or not, and credit **Montessori School Finder** with a link to **[montessorischoolfinder.com](https://www.montessorischoolfinder.com/)**, along with the sources below.
 
 ```bibtex
-@misc{montessoritheory_montessori_teacher_training_programs_2026,
+@misc{montessorischoolfinder_montessori_teacher_training_programs_2026,
   title  = {Montessori Teacher Training Programs Worldwide},
-  author = {Carter, Sophia and {Montessori Theory} and {Montessori School Finder}},
+  author = {{Montessori School Finder}},
   year   = {2026},
   url    = {https://github.com/montessoritheory/montessori-teacher-training-programs},
   note   = {Dataset, version 1.0, compiled from the MACTE accredited program search and the AMI list of training centres}
@@ -130,12 +138,12 @@ Ce jeu de données ouvert rassemble **356 formations Montessori pour enseignants
 - Les États-Unis comptent 173 programmes, devant la Chine (30), le Canada (25) et le Mexique (16).
 - Les coordonnées sont celles du centre de la ville, pas d'une adresse.
 
-Licence CC BY 4.0, en citant **Montessori Theory** ([montessori-theory.com](https://www.montessori-theory.com/)) et **Montessori School Finder** ([montessorischoolfinder.com](https://www.montessorischoolfinder.com/)), ainsi que MACTE et AMI comme sources.
+Licence CC BY 4.0, en citant **Montessori School Finder** ([montessorischoolfinder.com](https://www.montessorischoolfinder.com/)), ainsi que MACTE et AMI comme sources.
 
 ### Resumen
 
-356 programas de formación Montessori para docentes en 56 países, a partir de la búsqueda pública de programas acreditados por MACTE y de la lista de centros de formación AMI. 253 figuran en MACTE, 112 son centros AMI y 9 están en ambas listas. Estados Unidos reúne 173, seguido de China (30), Canadá (25) y México (16). Licencia CC BY 4.0, con crédito a Montessori Theory y a Montessori School Finder.
+356 programas de formación Montessori para docentes en 56 países, a partir de la búsqueda pública de programas acreditados por MACTE y de la lista de centros de formación AMI. 253 figuran en MACTE, 112 son centros AMI y 9 están en ambas listas. Estados Unidos reúne 173, seguido de China (30), Canadá (25) y México (16). Licencia CC BY 4.0, con crédito a Montessori School Finder.
 
 ---
 
-**Part of the Montessori open data family** from [Montessori School Finder](https://www.montessorischoolfinder.com/) and [Montessori Theory](https://www.montessori-theory.com/).
+**Part of the [Montessori School Finder open datasets](https://github.com/montessoritheory/montessori-schools-open-data).** Directory and guides at [montessorischoolfinder.com](https://www.montessorischoolfinder.com/).
