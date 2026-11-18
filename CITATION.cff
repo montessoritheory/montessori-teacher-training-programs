@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, and credit the MACTE accredited program search and the AMI list of training centres."
+type: dataset
+title: "Montessori Teacher Training Programs Worldwide"
+version: "1.0"
+date-released: 2026-11-18
+license: CC-BY-4.0
+authors:
+  - family-names: Carter
+    given-names: Sophia
+  - name: Montessori Theory
+    website: "https://www.montessori-theory.com/"
+  - name: Montessori School Finder
+    website: "https://www.montessorischoolfinder.com/"
+repository-code: "https://github.com/montessoritheory/montessori-teacher-training-programs"
+url: "https://www.montessorischoolfinder.com/montessori-certifications/training-centers/"
+abstract: "356 Montessori teacher training programs in 56 countries, compiled from the MACTE accredited program search and the AMI list of training centres, with place, levels, affiliation, delivery format, accreditation status, website and a link to the Montessori School Finder country page."
+keywords: [Montessori, teacher training, teacher certification, AMI, MACTE, early childhood, open data]
+references:
+  - type: data
+    title: "Accredited Programs"
+    authors:
+      - name: "Montessori Accreditation Council for Teacher Education (MACTE)"
+    url: "https://www.macte.org/accredited-programs/"
+  - type: data
+    title: "Training Centres"
+    authors:
+      - name: "Association Montessori Internationale (AMI)"
+    url: "https://montessori-ami.org/training-programmes/training-centres"
