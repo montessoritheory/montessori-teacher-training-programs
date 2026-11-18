@@ -106,7 +106,7 @@ The MACTE accredited program search and the AMI list of training centres were re
 
 ### Image Credits
 
-Cover photo by Anil Sharma on [Pexels](https://www.pexels.com/photo/40282976/), Pexels License. World outlines in the map from [Natural Earth](https://www.naturalearthdata.com/), public domain. Charts by Montessori School Finder.
+World outlines in the map from [Natural Earth](https://www.naturalearthdata.com/), public domain. Charts by Montessori School Finder.
 
 ### License And Citation
 
