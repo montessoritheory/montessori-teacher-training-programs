@@ -12,7 +12,7 @@ cells = [
 
 ![cover]({GH}/images/cover.png)
 
-This notebook loads the dataset and answers four quick questions about Montessori teacher training. Programs come from the MACTE accredited program search and the AMI list of training centres. Companion directory with a page per country, [Montessori School Finder](https://www.montessorischoolfinder.com/montessori-certifications/training-centers/). Dataset by [Montessori Theory](https://www.montessori-theory.com/) and Montessori School Finder, CC BY 4.0."""),
+This notebook loads the dataset and answers four quick questions about Montessori teacher training. Programs come from the MACTE accredited program search and the AMI list of training centres. Companion directory with a page per country, [Montessori School Finder](https://www.montessorischoolfinder.com/montessori-certifications/training-centers/). Dataset by Montessori School Finder, CC BY 4.0."""),
     code(f"""import os, pandas as pd, matplotlib.pyplot as plt
 
 # works on Kaggle, locally, and straight from GitHub
@@ -57,7 +57,7 @@ found[["name", "city", "country", "listed_by", "msf_url"]].sort_values(["country
 - `macte_status` copies what MACTE shows. A program that is not MACTE listed may still be recognized elsewhere.
 - Coordinates are city centres, not street addresses.
 
-Credit **Montessori Theory** and **Montessori School Finder** (CC BY 4.0), and the MACTE and AMI listings as sources."""),
+Credit **Montessori School Finder** with a link to montessorischoolfinder.com (CC BY 4.0), and the MACTE and AMI listings as sources."""),
 ]
 nb = nbf.v4.new_notebook(cells=cells)
 nb.metadata["kernelspec"] = {"display_name": "Python 3", "language": "python", "name": "python3"}
